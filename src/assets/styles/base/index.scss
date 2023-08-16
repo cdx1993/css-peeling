@@ -1,0 +1,25 @@
+/* 
+    基础样式 
+    命名规则：--base-  拼接
+*/
+
+/* 字体 */
+$--hb-font-size: 14px;
+$--hb-font-size--small: 13px;
+$--hb-font-size--mini: 12px;
+
+/* 边框圆角 */
+$--hb-border-radius: 4px;
+$--hb-border-radius--small: 3px;
+$--hb-border-radius--mini: 2px;
+
+
+/* 内边距 */
+$--hb-padding: 10px 16px;
+$--hb-padding--small: 8px 14px;
+$--hb-padding--mini: 6px 12px;
+
+/* 外边距 */
+$--hb-margin: 6px 12px;
+$--hb-margin--small: 5px 10px;
+$--hb-margin--mini: 4px 8px;

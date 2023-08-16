@@ -1,0 +1,36 @@
+// @import './theme/dark.scss'; //主题一 
+// @import './theme/light.scss'; //主题二
+/* 
+自定义主题 
+命名规则：--th-  拼接
+*/
+
+/*主题色*/
+
+
+$--th-color: #1678ff;
+$--th-color--hover: #79adf5;
+$--th-color--down: #2c70cf;
+$--th-color--up: #2c70cf;
+
+
+
+/* 背景色 */
+$--th-background-color: #c6c6c6;
+$--th-background-color--hover: #f8e7e7;
+$--th-background-color--focus: #fff;
+$--th-background-color--blur: #b9a9a9;
+$--th-background-color--select: #fcf6f6;
+
+
+/*边框色*/
+$--th-border-color: #f1f1f1;
+$--th-border-color-hover: #65c8f0;
+
+/* 边框阴影 */
+$--th--box-shadow: 0 0 3px 0 #010101;
+
+
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with ($colors: ('primary': ('base': $--th-color),
+                'success':('base':$--th-background-color)));

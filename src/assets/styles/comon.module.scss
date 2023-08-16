@@ -1,0 +1,19 @@
+@import './theme/dark.scss'; //主题一 
+@import './theme/light.scss'; //主题二
+
+$primary: #ffffff;
+$sideWidth: 100px;
+$--color: var(--color);
+$--color-1: var(--color-1);
+$--color-2: var(--color-2);
+$--color-3: var(--color-3);
+$--color-4: var(--color-4);
+$--color-5: var(--color-5);
+$--color-6: var(--color-6);
+
+:export {
+    primary: $primary;
+    sideWidth: $sideWidth;
+    color:red;
+    color1:$--color-2;
+}

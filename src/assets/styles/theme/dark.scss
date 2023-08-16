@@ -1,0 +1,21 @@
+/* 主题二 黑色 */
+
+
+$--black-color: #fff;
+$--black-border-color: #010101;
+
+/* 暗 dark主题 */
+:root[theme='dark'] {
+    --color:"#fff";
+    --color-1:"#337ecc";
+    --color-2:"#79bbff";
+    --color-3:"#a0cfff";
+    --color-4:"#c6e2ff";
+    --color-5:"#d9ecff";
+    --color-6:"#ecf5ff";
+
+    --header-bg-color: #0f1c29;
+    --text-color: #c8c5be;
+    --container-bg-color: #2a2c2c;
+    --content-bg-color:#242525;
+}

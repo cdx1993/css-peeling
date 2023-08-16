@@ -1,0 +1,50 @@
+/*
+mxin 混合
+命名规则：--mix-  拼接
+*/
+
+/* 按钮 */
+@mixin --mix-button {
+    display: inline-block;
+    padding: $--hb-padding;
+    border-radius: $--hb-border-radius--mini;
+    border: 1px solid $--th-border-color;
+    background-color: $--th-background-color;
+    cursor: pointer;
+    transform: 1s all;
+
+    &:hover {
+        box-shadow: $--th--box-shadow;
+    }
+}
+
+/* 卡片 */
+@mixin --mix-card {
+    width: 400px;
+    height: 260px;
+    display: flex;
+    box-sizing: border-box;
+    padding: $--hb-padding;
+
+    &:hover {
+        box-shadow: $--th--box-shadow;
+    }
+}
+
+/*单行溢出*/
+@mixin --mix-one-txt-cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*多行溢出*/
+@mixin --mix-txt-cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/*  滚动条 */

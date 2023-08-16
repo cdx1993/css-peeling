@@ -1,0 +1,23 @@
+/* 主题一 白色 */
+$--white-color: #000;
+$--white-bg-color: #000;
+$--white-border-color: #f1f1f1;
+
+
+
+/* 亮 light主题 */
+:root[theme='light'] {
+    --color:"#000";
+    --color-1:"#73767a";
+    --color-2:"#b1b3b8";
+    --color-3:"#c8c9cc";
+    --color-4:"#dedfe0";
+    --color-5:"#e9e9eb";
+    --color-6:"#f4f4f5";
+
+    --header-bg-color: #001529;
+    --text-color: #262626;
+    --container-bg-color: #f0f2f5;
+    --content-bg-color: #fff;
+}
+

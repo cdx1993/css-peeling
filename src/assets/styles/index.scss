@@ -1,0 +1,26 @@
+/* 输出文件 */
+
+/**
+*必须引入，且引入顺序固定
+*/
+@import './initial/index.scss'; //初始化
+@import './base/index.scss'; //基础
+
+@import './theme/index.scss'; //主题色 自定义 
+
+@import './theme/dark.scss'; //主题一 
+@import './theme/light.scss'; //主题二
+
+@import './state/index.scss'; //状态
+@import './mixin/index.scss'; //混合
+
+/**
+*可视情况 ‘单独引入’ 或者 ‘全局引入’
+*/
+@import './ui/index.scss'; //ui组件
+@import './layout/index.scss'; //布局
+@import './module/index.scss'; //模块
+/**
+*可以不用全局引入
+*/
+@import './other/index.scss'; //其他

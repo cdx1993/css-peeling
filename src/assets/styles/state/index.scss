@@ -1,0 +1,42 @@
+/* 
+状态 
+is-  拼接
+*/
+
+/* 选中时 */
+.is-active {
+    background-color: $--th-color;
+}
+
+/* 获取焦点 */
+.is-focus {
+    background-color: $--th-background-color--focus;
+}
+
+/* 失去焦点 */
+.is-blur {
+    background-color: $--th-background-color--blur;
+}
+
+/* 选中 input 中的文字 */
+.is-select {
+    background-color: $--th-background-color--select;
+}
+
+/* 滑入 */
+.is-hover {
+    cursor: pointer;
+    box-shadow: 1px 0px 3px 0px $--th-color--hover;
+}
+
+/* 鼠标按下 */
+.is-mousedown {
+    cursor: pointer;
+    box-shadow: 1px 0px 3px 0px $--th-color--down;
+}
+
+/* 释放按下的鼠标键 */
+.is-mouseup {
+    cursor: pointer;
+    box-shadow: 1px 0px 3px 0px $--th-color--up;
+}
